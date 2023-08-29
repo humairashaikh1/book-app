@@ -1,0 +1,38 @@
+
+
+
+
+.container{
+    
+    padding-top: 10px;
+    width: 100%;
+    max-width: 700px;
+
+    height:30px;
+    align-items: center;
+    border-radius: 60px;
+    position: flex;
+    padding-left:190px;
+    justify-content: center;
+}
+
+.container input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 300px;
+
+}
+.container button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+p{
+    
+    font-weight: 600;
+    color:rgb(36, 132, 158) ;
+    padding-left: 190px;
+}
+ 
+
+    
