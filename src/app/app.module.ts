@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SearchhComponent } from './searchh/searchh.component';
-import { CardssComponent } from './cardss/cardss.component';
-import { HttpClientModule} from '@angular/common/http'
+import { SearchComponent } from './search/search.component';
+import { CardsComponent } from './cards/cards.component';
+import { HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -16,9 +15,8 @@ import { HttpClientModule} from '@angular/common/http'
     AppComponent,
     HeaderComponent,
     NavbarComponent,
-    SearchhComponent,
-    CardssComponent,
-    
+    SearchComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,8 +24,6 @@ import { HttpClientModule} from '@angular/common/http'
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule
-
-
   ],
   providers: [],
   bootstrap: [AppComponent]

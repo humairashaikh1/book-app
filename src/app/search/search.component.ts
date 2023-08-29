@@ -2,11 +2,11 @@ import { Component, OnInit, Output } from '@angular/core';
 import { EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-searchh',
-  templateUrl: './searchh.component.html',
-  styleUrls: ['./searchh.component.css']
+  selector: 'app-search',
+  templateUrl: './search.component.html',
+  styleUrls: ['./search.component.css']
 })
-export class SearchhComponent implements OnInit{
+export class SearchComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
@@ -16,12 +16,10 @@ export class SearchhComponent implements OnInit{
   @Output()
   searchTextChanged: EventEmitter<string> = new EventEmitter<string>();
 
-  onSearchTextChanged(e:any){
+  onSearchTextChanged(e: any) {
     console.log(e.target.value)
     this.searchTextChanged.emit(e.target.value);
-
   }
-
 }
 
 

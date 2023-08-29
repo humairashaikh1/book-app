@@ -1,37 +1,30 @@
-
-.cardtop{
+.card {
     display: flex;
-    padding-left: 40%;
-    margin-left: 60%;
-    width:80%;
-    height: 23%;
-    
-    background-color: white;
-    
+    width: 85%;
+    flex-wrap: wrap;
+    flex-basis: 20%;
 }
 
-
-.cards{
-    
-    display:flexbox;
-   margin: 8px;
+.cards {
+    margin: 30px;
     box-shadow: 10px;
-    width: 455px;
-    height: 130px;
+    width: 350px;
+    height: 285px;
     background-color: white;
     border: 2px ridge grey;
     border-radius: 5px;
     border-left: 5px solid orange;
-    margin-left: 20%;
 }
-h1{
+
+h1 {
     color: rgb(36, 132, 158);
-    margin-left: 10px;
     font-size: medium;
     margin-top: 10px;
 }
-p{
+
+.info {
     padding-bottom: 1px;
     font-size: smaller;
-    margin-left: 10px;
+
 }
+

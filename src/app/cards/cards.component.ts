@@ -2,11 +2,11 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cardss',
-  templateUrl: './cardss.component.html',
-  styleUrls: ['./cardss.component.css']
+  selector: 'app-cards',
+  templateUrl: './cards.component.html',
+  styleUrls: ['./cards.component.css']
 })
-export class CardssComponent implements OnInit {
+export class CardsComponent implements OnInit {
 
   userList: any;
   constructor(private httpClient: HttpClient) {
@@ -24,7 +24,7 @@ export class CardssComponent implements OnInit {
     })
     return this.userList;
 
-    
+
   }
   onSearchTextEntered(searchValue: string) {
     this.searchText = searchValue;

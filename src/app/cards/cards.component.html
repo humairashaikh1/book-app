@@ -1,0 +1,20 @@
+<div>
+    <app-search (searchTextChanged)="onSearchTextEntered($any($event))"></app-search>
+</div>
+<div class="card">
+    <div *ngFor="let user of userList;let i = index">
+        <div class="coursecontainer"
+            *ngIf="searchText === '' || user.volumeInfo.title.toLowerCase().includes(searchText)">
+
+            <div class="cards">
+                <h1>{{ user.volumeInfo.title}}</h1>
+                <div class="info">
+                    Author: {{ user.volumeInfo.authors }}<br>
+                    Publisher: {{ user.volumeInfo.publisher }}<br>
+                    Published Date: {{ user.volumeInfo.publishedDate }}
+                    <p><img src={{user.volumeInfo.imageLinks.smallThumbnail}}></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

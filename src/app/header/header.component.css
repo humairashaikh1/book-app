@@ -1,50 +1,49 @@
-
-.row{
-    margin: auto;
-
+.row {
+    width: 85%;
     background-color:white;
     color: rgb(36, 132, 158);
-    padding-left:160px;
-    padding-bottom:0;
-    padding-top: 0;
-    height: 25px;
-}
-h1{
-    position:absolute;
-    top: -12px;;
-    padding-left: 6%;
-    padding-top: 10px;
     padding-bottom: 0;
-    font-size: x-large;
-    height: 300px;
+    padding-top: 0;
+    height: 50px;
 }
-img{
-    padding-left:2%;
+
+.heading {
+    margin-left: 20%;
+    padding-top: 0px;
+    font-weight: bolder;
+    font-size: 25px;
+    height: 300px;
+    padding-bottom: 0;
+    margin-top: -35px;
+}
+
+img {
+    margin-left: 15%;
+    padding-top: 5px;
     background-color: white;
 }
 
-body{
-    height:45px;
+.header-container {
+    height: 45px;
     font-size: larger;
     font-weight: bold;
-    padding-left: 190px;
     background-color: whitesmoke;
-    
 }
-button{
 
-    align-items:center;
+button {
+    margin-left: 80%;
+    align-items: center;
     background-color: rgb(36, 132, 158);
-    color:white;
-    border-color: rgb(36, 132, 158) ;
+    color: white;
     height: 30px;
-}
-.tab{
-    padding-left: 80%;
+    border-radius: 5px;
+    border-color: rgb(36, 132, 158);
 }
 
-p{
-    padding-top: 10px;
+.books {
+    margin-left: 211px;
+    font-weight: bolder;
+    padding-top: 1%;
     padding-bottom: 30px;
 }
  
