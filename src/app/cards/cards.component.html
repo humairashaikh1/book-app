@@ -2,7 +2,7 @@
     <app-search (searchTextChanged)="onSearchTextEntered($any($event))"></app-search>
 </div>
 <div class="card">
-    <div *ngFor="let user of userList;let i = index">
+    <div *ngFor="let user of userList; let i = index">
         <div class="coursecontainer"
             *ngIf="searchText === '' || user.volumeInfo.title.toLowerCase().includes(searchText)">
 
