@@ -28,7 +28,6 @@ export class CardsComponent implements OnInit {
   }
   onSearchTextEntered(searchValue: string) {
     this.searchText = searchValue;
-    console.log('onSearchTextEntered', this.searchText);
   }
 
 }

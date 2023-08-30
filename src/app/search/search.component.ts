@@ -17,7 +17,6 @@ export class SearchComponent implements OnInit {
   searchTextChanged: EventEmitter<string> = new EventEmitter<string>();
 
   onSearchTextChanged(e: any) {
-    console.log(e.target.value)
     this.searchTextChanged.emit(e.target.value);
   }
 }
